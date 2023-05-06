@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <title>Eliminar Avion</title>
+   <link rel="icon" href="imagenes/avion.png">
+   <!-- CSS  -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link href="stylfor.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+   <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+         <a id="logo-container" href="../index.html" class="brand-logo">Luxury Vehicles</a>
+         <ul class="right hide-on-med-and-down">
+            <li><a href="../datatables/datatableAvion.html">Lista De Aviones</a></li>
+            <li><a href="#">Trabaja Con Nosotros</a></li>
+            <li><a href="#">Conocenos</a></li>
+      </div>
+   </nav>
+
+   <div class="formulario-vehiculo1l">
+      <form id="formAvionEliminar">
+         <h1>ELIMINAR AVION</h1>
+         <label for="placa">Digite El Id Que Desea Eliminar:</label>
+         <input type="text" id="idAvion" required><br>
+         <input type="submit" value="Aceptar" id="btnEliminarAvionId">
+      </form>
+   </div>
+   <script src="../crud/eliminar/eliminarInfoAvion.js"></script>
+</body>
+</html>

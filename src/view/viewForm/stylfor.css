@@ -1,0 +1,265 @@
+.formulario-vehiculo {
+    width:370px;
+    background: #26a69a;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    margin-block-end: 20px;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .formulario-vehiculo h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #3d3d3d;
+  }
+  
+  .formulario-vehiculo label {
+    display: block;
+    font-size: 18px;
+    color: #3d3d3d;
+  }
+  
+  .formulario-vehiculo input[type="text"],
+  .formulario-vehiculo input[type="number"] {
+    width: 300px;
+    background: #26a69a;
+    padding: 1px;
+    border-radius: 40px;
+    border: 2px solid #36dbf8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .formulario-vehiculo input[type="text"]:focus,
+  .formulario-vehiculo input[type="number"]:focus {
+    outline: none;
+    border-bottom-color: #00a5ff;
+  }
+  
+  .formulario-vehiculo input[type="submit"] {
+    background-color: #019696;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .formulario-vehiculo input[type="submit"]:hover {
+    background-color: #0077b3;
+  }
+
+  nav ul a,
+nav .brand-logo {
+  color: #444;
+  text-decoration: none;
+}
+
+.formulario-vehiculo1 {
+  width:370px;
+  background: #26a69a;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-block-end: 20px;
+  border-radius: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  float: right;
+  margin-right: 250px;
+}
+
+.formulario-vehiculo1 h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #3d3d3d;
+}
+
+.formulario-vehiculo1 label {
+  display: block;
+  font-size: 18px;
+  color: #3d3d3d;
+}
+
+.formulario-vehiculo1 input[type="text"],
+.formulario-vehiculo1 input[type="number"] {
+  width: 300px;
+  background: #26a69a;
+  padding: 1px;
+  border-radius: 40px;
+  border: 2px solid #36dbf8;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.formulario-vehiculo1 input[type="text"]:focus,
+.formulario-vehiculo1 input[type="number"]:focus {
+  outline: none;
+  border-bottom-color: #00a5ff;
+}
+
+.formulario-vehiculo1 input[type="submit"] {
+  background-color: #019696;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.formulario-vehiculo1 input[type="submit"]:hover {
+  background-color: #0077b3;
+}
+
+/* -----------------Este es un comentario en CSS -----------------*/
+
+.formulario-vehiculo2 {
+  width:370px;
+  background: #26a69a;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-block-end: 20px;
+  border-radius: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  float: right;
+  margin-right: 150px;
+  
+}
+
+.formulario-vehiculo2 h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #3d3d3d;
+}
+
+.formulario-vehiculo2 label {
+  display: block;
+  font-size: 18px;
+  color: #3d3d3d;
+}
+
+.formulario-vehiculo2 input[type="text"],
+.formulario-vehiculo2 input[type="number"] {
+  width: 300px;
+  background: #26a69a;
+  padding: 1px;
+  border-radius: 40px;
+  border: 2px solid #36dbf8;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.formulario-vehiculo2 input[type="text"]:focus,
+.formulario-vehiculo2 input[type="number"]:focus {
+  outline: none;
+  border-bottom-color: #00a5ff;
+}
+
+.formulario-vehiculo2 input[type="submit"] {
+  background-color: #019696;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.formulario-vehiculo2 input[type="submit"]:hover {
+  background-color: #0077b3;
+}
+
+/* -----------------CSS PARA LOS ELIMINAR -----------------*/
+
+
+.formulario-vehiculo1l {
+  width:370px;
+  background: #26a69a;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-block-end: 20px;
+  border-radius: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  float: right;
+  margin-right: 550px;
+}
+
+.formulario-vehiculo1l h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #3d3d3d;
+}
+
+.formulario-vehiculo1l label {
+  display: block;
+  font-size: 18px;
+  color: #3d3d3d;
+}
+
+.formulario-vehiculo1l input[type="text"],
+.formulario-vehiculo1l input[type="number"] {
+  width: 300px;
+  background: #26a69a;
+  padding: 1px;
+  border-radius: 40px;
+  border: 2px solid #36dbf8;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.formulario-vehiculo1l input[type="text"]:focus,
+.formulario-vehiculo1l input[type="number"]:focus {
+  outline: none;
+  border-bottom-color: #00a5ff;
+}
+
+.formulario-vehiculo1l input[type="submit"] {
+  background-color: #019696;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.formulario-vehiculo1l input[type="submit"]:hover {
+  background-color: #0077b3;
+}

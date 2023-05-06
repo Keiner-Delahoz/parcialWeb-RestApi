@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <title>Formulario Bus</title>
+   <link rel="icon" href="imagenes/autobus.png">
+   <!-- CSS  -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link href="stylfor.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+   <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+         <a id="logo-container" href="../index.html" class="brand-logo">Luxury Vehicles</a>
+         <ul class="right hide-on-med-and-down">
+            <li><a href="../datatables/datatableBus.html">Lista De Bus</a></li>
+            <li><a href="editarBus.html">Editar Bus</a></li>
+            <li><a href="eliminarBus.html">Eliminar Bus</a></li>
+            <li><a href="#">Conocenos</a></li>
+      </div>
+   </nav>
+
+   <div class="container">
+      <form class="formulario-vehiculo" id="formBus" method="POST">
+         <h1>AGREGAR BUS</h1>
+
+         <label for="placa">Número de Placa:</label>
+         <input type="text" id="numPlaca" name="placa" required><br>
+
+         <label for="color">Color:</label>
+         <input type="text" id="color" name="color" required><br>
+
+         <label for="marca">Marca:</label>
+         <input type="text" id="marca" name="marca" required><br>
+
+         <label for="modelo">Modelo:</label>
+         <input type="text" id="modelo" name="modelo" required><br>
+
+         <label for="capacidad">Capacidad Máxima:</label>
+         <input type="number" id="capacidadMax" name="capacidad" required><br>
+
+         <label for="modelo">Numero De Ejes:</label>
+         <input type="text" id="numeroEjes" name="modelo" required><br>
+
+         <label for="modelo">Tiene Baños:</label>
+         <input type="text" id="tieneBaño" name="modelo" required><br>
+
+         <input type="submit" value="Guardar" id="btnGuardar">
+      </form>
+   </div>
+   <script src="../crud/insertar/recibirInfoBus.js"></script>
+</body>
+
+</html>

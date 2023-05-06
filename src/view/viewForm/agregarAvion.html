@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <title>Formulario Avion</title>
+   <link rel="icon" href="imagenes/avion.png">
+   <!-- CSS  -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link href="stylfor.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+   
+   <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="../index.html" class="brand-logo">Luxury Vehicles</a>
+        <ul class="right hide-on-med-and-down">
+         <li><a href="../datatables/datatableAvion.html">Lista De Aviones</a></li>
+          <li><a href="editarAvion.html">Editar Avion</a></li>
+          <li><a href="eliminarAvion.html">Eliminar Avion</a></li>
+          <li><a href="#">Conocenos</a></li>
+      </div>
+    </nav>
+
+   <div class="container">
+      <form class="formulario-vehiculo" id="formAvion" method="POST">
+         <h1>AGREGAR AVION</h1>
+
+         <label for="placa">Número de Placa:</label>
+         <input type="text" id="numPlaca" required><br>
+
+         <label for="color">Color:</label>
+         <input type="text" id="color" required><br>
+
+         <label for="marca">Marca:</label>
+         <input type="text" id="marca" required><br>
+
+         <label for="modelo">Modelo:</label>
+         <input type="text" id="modelo" required><br>
+
+         <label for="capacidad">Capacidad Máxima:</label>
+         <input type="number" id="capacidadMax" required><br>
+
+         <label for="modelo">Numero De Motores:</label>
+         <input type="number" id="numeroMotores" required><br>
+
+         <label for="modelo">Maxima Presion:</label>
+         <input type="number" id="maximaPresion" required><br>
+
+         <input type="submit" value="Guardar" id="btnGuardarAvion">
+      </form>
+   </div>
+   <script src="../crud/insertar/recibirInfoAvion.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

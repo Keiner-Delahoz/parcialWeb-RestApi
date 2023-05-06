@@ -1,0 +1,14 @@
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/pexels-sergi-montaner-3966425.jpg);   
+    background-size: cover;
+    font-family: sans-serif;
+}
